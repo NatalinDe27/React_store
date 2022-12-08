@@ -1,0 +1,76 @@
+#footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-radius: 3px;
+    background: #ccc;
+    color: rgba(75, 75, 75, 1);
+    padding: 15px 60px;
+    box-shadow: 0 -6px 5px 0 #ccc;
+
+}
+
+footer ul li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.contacts {
+    margin-right: 109px;
+
+}
+
+.contacts li {
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 24px;
+    color: rgba(75, 75, 75, 1);
+    list-style: none;
+}
+
+.contacts li:last-of-type {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 2px;
+}
+
+.contacts a {
+    margin-right: 24px;
+    max-width: 20px;
+    display: inline-block;
+    color: rgba(75, 75, 75, 1);
+    font-size: 23px;
+}
+
+.general_contacts {
+    margin-right: 131px;
+}
+
+.general_contacts li {
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgba(75, 75, 75, 1);
+    list-style: none;
+
+}
+
+.subscribe p {
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.subscribe input {
+    background: transparent;
+    box-shadow: inset 0 1px 1px rgba(255, 255, 255, .5), inset 0 -1px 0 rgba(0, 0, 0, .15), 0 1px 3px rgba(0, 0, 0, .15);
+    border: none;
+    padding: 5px 10px;
+}
+
+.subscribe input::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+}
